@@ -11,8 +11,8 @@ with open('test_file.txt', 'w', encoding="utf-8", errors='namereplace') as file:
 print("*" * 30)
 
 with open('test_file.txt', 'rb') as file:
-    content = file.read()
-encodings = detect(content)["encoding"]
+    new_text = file.read()
+encodings = detect(new_text)["encoding"]
 print(f"кодировка файла: '{encodings}'")
 
 print("*" * 30)
