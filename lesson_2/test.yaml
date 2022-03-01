@@ -1,0 +1,11 @@
+clients:
+- Сергей И
+- Лев Т
+- John S
+- Леонид Ж
+item_price:
+  product_1: 999₫-1000₫
+  product_2: 150₫-500₫
+  product_3: 10000₫-300000₫
+  product_4: 321€-516₫
+items_quantity: 4
