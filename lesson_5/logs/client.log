@@ -1,0 +1,28 @@
+2022-03-22 20:57:59,685 CRITICAL config_client_log.py Критическая ошибка
+2022-03-22 20:57:59,686 ERROR config_client_log.py Ошибка
+2022-03-22 20:57:59,686 INFO config_client_log.py Информационное сообщение
+2022-03-22 20:57:59,686 DEBUG config_client_log.py Отладочная информация
+2022-03-22 20:58:16,826 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:01:17,204 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:06:01,500 CRITICAL config_client_log.py Критическая ошибка
+2022-03-22 21:06:01,501 ERROR config_client_log.py Ошибка
+2022-03-22 21:06:01,501 INFO config_client_log.py Информационное сообщение
+2022-03-22 21:06:01,501 DEBUG config_client_log.py Отладочная информация
+2022-03-22 21:06:25,258 CRITICAL config_client_log.py Критическая ошибка
+2022-03-22 21:06:25,258 ERROR config_client_log.py Ошибка
+2022-03-22 21:06:25,258 INFO config_client_log.py Информационное сообщение
+2022-03-22 21:06:25,258 DEBUG config_client_log.py Отладочная информация
+2022-03-22 21:13:09,331 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:13:09,332 DEBUG client.py Сообщение клиента {'action': 'presence', 'time': 1647965589.3325057, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-22 21:21:19,707 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:21:19,709 DEBUG client.py Сообщение клиента {'action': 'presence', 'time': 1647966079.709423, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-22 21:21:29,647 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:21:39,808 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:21:39,810 DEBUG client.py Сообщение клиента {'action': 'presence', 'time': 1647966099.8108678, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-22 21:21:39,810 INFO client.py Ответ сервера200 : OK
+2022-03-22 21:23:26,034 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:23:26,036 DEBUG client.py Сообщение клиента {'action': 'presence', 'time': 1647966206.0354848, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-22 21:23:26,037 INFO client.py Ответ сервера200 : OK
+2022-03-22 21:25:21,051 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-22 21:25:21,053 DEBUG client.py Сообщение клиента {'action': 'presence', 'time': 1647966321.0531359, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-22 21:25:21,054 INFO client.py Ответ сервера: "200 : OK"
