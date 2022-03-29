@@ -1,0 +1,800 @@
+2022-03-29 23:41:25,816 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:41:25,816 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:41:25,816 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579285.8163757, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:41:25,832 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64194), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579285.8163757, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:41:25,863 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:41:25,878 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:41:25,878 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579285.86325, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:41:25,878 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64195), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579285.86325, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:41:25,878 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64194), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:41:25,878 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:41:25,878 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:41:25,910 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:41:25,910 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579285.9101253, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64196), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579285.9101253, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64195), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:41:25,910 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:41:25,910 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:41:25,910 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579285.9101253, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64197), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579285.9101253, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64196), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:41:25,910 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:41:25,910 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:41:26,412 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64197), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:41:26,412 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:41:26,412 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:45:47,163 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:45:47,163 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:45:47,163 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579547.1631773, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:45:47,163 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:45:47,163 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64228), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579547.1631773, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:45:47,163 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:45:47,163 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579547.1631773, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:45:47,163 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64229), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579547.1631773, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:45:47,210 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:45:47,210 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:45:47,210 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579547.2100525, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:45:47,210 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64230), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579547.2100525, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:45:47,225 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:45:47,241 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:45:47,241 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579547.2413018, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:45:47,241 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64231), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579547.2413018, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:46:17,933 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:46:18,027 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:46:18,027 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:46:18,027 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579578.0273175, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:46:18,027 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64246), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579578.0273175, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:46:18,042 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:46:18,058 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:46:18,058 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579578.0429428, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:46:18,058 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64247), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579578.0429428, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:46:18,058 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64246), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:18,058 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:46:18,058 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:46:18,074 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:46:18,089 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:46:18,089 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579578.0741918, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:46:18,089 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64248), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579578.0741918, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:46:18,089 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64247), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:18,089 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:46:18,089 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:46:18,449 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:46:18,449 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579578.4492006, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:46:18,449 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64245), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579578.4492006, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:46:18,449 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64248), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:18,449 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:46:18,449 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:46:18,960 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64245), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:18,960 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:46:18,960 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:46:22,856 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asd'), {}
+
+2022-03-29 23:46:22,856 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64245), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648579582.856817, 'to': '#room_name', 'from': 'default_user', 'message': 'asd'}), {}
+
+2022-03-29 23:46:23,032 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64246), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:23,032 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64247), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:23,032 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64248), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:30,886 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'wwwwwwwwwww'), {}
+
+2022-03-29 23:46:30,886 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64245), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648579590.8865957, 'to': '#room_name', 'from': 'default_user', 'message': 'wwwwwwwwwww'}), {}
+
+2022-03-29 23:46:31,168 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64246), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:31,168 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64247), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:46:31,168 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64248), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:26,541 ERROR client.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-29 23:47:26,541 ERROR client.py Соединение с сервером 127.0.0.1 было потеряно.
+2022-03-29 23:47:31,002 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:47:31,002 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:47:31,002 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:47:31,002 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579651.0025127, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:47:31,002 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579651.0025127, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:47:31,002 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64252), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579651.0025127, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:47:31,002 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64253), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579651.0025127, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:47:31,018 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:47:31,018 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64252), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:31,018 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579651.0181377, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:47:31,018 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:47:31,018 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:47:31,018 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64254), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579651.0181377, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:47:31,033 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:47:31,033 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64253), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:31,033 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:47:31,033 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:47:31,033 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:47:31,033 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579651.033762, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:47:31,033 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64255), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579651.033762, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:47:31,033 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64254), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:31,033 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:47:31,033 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:47:31,533 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64255), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:31,533 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:47:31,533 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:47:33,380 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asdasdasd'), {}
+
+2022-03-29 23:47:33,380 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64253), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648579653.3802595, 'to': '#room_name', 'from': 'default_user', 'message': 'asdasdasd'}), {}
+
+2022-03-29 23:47:33,567 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64252), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:33,567 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64254), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:47:33,567 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64255), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:16,015 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:48:16,015 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:48:16,015 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579696.015956, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:48:16,015 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64275), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579696.015956, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:48:16,047 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:48:16,047 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:48:16,047 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579696.0472054, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:48:16,047 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64276), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579696.0472054, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:48:16,047 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64275), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:16,047 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:48:16,047 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:48:16,094 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-29 23:48:16,094 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648579696.0940804, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64276), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64277), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579696.0940804, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64278), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648579696.0940804, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:48:16,094 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64278), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:48:16,094 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64277), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:16,094 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-29 23:48:16,094 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-29 23:48:18,637 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asdasd'), {}
+
+2022-03-29 23:48:18,637 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64275), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648579698.6375906, 'to': '#room_name', 'from': 'default_user', 'message': 'asdasd'}), {}
+
+2022-03-29 23:48:18,653 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64276), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:18,653 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64278), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-29 23:48:18,653 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64277), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:08:57,181 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:06,253 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:06,287 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:06,287 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:06,287 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580946.287868, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:06,287 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64549), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580946.287868, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:06,444 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:06,444 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:06,444 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580946.4441192, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:06,444 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64550), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580946.4441192, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:06,444 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64549), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:06,459 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:06,459 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:06,475 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:06,475 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:06,475 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580946.4753704, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:06,475 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64551), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580946.4753704, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:06,475 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64550), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:06,475 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:06,475 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:06,772 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:06,772 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580946.772245, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:06,772 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64548), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580946.772245, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:06,772 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64551), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:06,772 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:06,772 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:07,287 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64548), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:07,287 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:07,287 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:10,278 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asdasda'), {}
+
+2022-03-30 00:09:10,278 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64548), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648580950.278673, 'to': '#room_name', 'from': 'default_user', 'message': 'asdasda'}), {}
+
+2022-03-30 00:09:10,325 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64549), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:10,325 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64550), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:10,325 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64551), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:35,876 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:35,876 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:35,876 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580975.8761759, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:35,876 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64553), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580975.8761759, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:35,891 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:35,891 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:35,891 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580975.8918006, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:35,891 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64554), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580975.8918006, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:35,891 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64553), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:35,891 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:35,891 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:35,907 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:35,923 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:35,923 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580975.9074252, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:35,923 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64555), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580975.9074252, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:35,923 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64554), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:35,923 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:35,923 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:35,923 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:09:35,938 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:09:35,938 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648580975.92305, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:09:35,938 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64556), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648580975.92305, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:09:35,938 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64555), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:35,938 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:35,938 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:36,444 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64556), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:36,444 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:09:36,444 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:09:39,836 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asd'), {}
+
+2022-03-30 00:09:39,836 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64553), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648580979.8364618, 'to': '#room_name', 'from': 'default_user', 'message': 'asd'}), {}
+
+2022-03-30 00:09:39,993 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64554), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:39,993 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64555), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:09:40,008 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64556), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:29,340 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:29,372 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:29,465 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:29,481 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:29,481 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581029.481486, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:29,481 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64576), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581029.481486, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:29,512 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:29,512 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:29,512 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581029.5127335, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:29,512 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=140, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64577), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581029.5127335, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:29,512 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64576), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:29,512 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:29,512 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:29,872 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:29,872 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581029.8721697, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:29,872 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64574), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581029.8721697, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:29,872 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=140, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64577), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:29,872 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:29,872 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:29,903 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:29,903 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581029.90342, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:29,903 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64575), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581029.90342, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:29,903 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64574), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:29,903 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:29,903 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:30,419 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64575), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:30,419 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:30,419 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:35,948 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:35,964 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:35,964 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581035.9644477, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:35,964 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64578), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581035.9644477, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:36,011 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:36,011 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:36,011 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581036.011322, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:36,011 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64578), raddr=('127.0.0.1', 7777)>,), {}
+
+n': 'presence', 'time': 1648581036.011322, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:36,011 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:36,011 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:36,026 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:36,042 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:36,042 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581036.0269465, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:36,042 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64580), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581036.0269465, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:36,042 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64579), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:36,042 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:36,042 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:36,073 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:36,073 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:36,073 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581036.0738235, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:36,073 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64581), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581036.0738235, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:36,073 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64580), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:36,073 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:36,073 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:36,573 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64581), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:36,573 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:36,573 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:46,934 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:46,996 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:46,996 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:46,996 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581046.9965541, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:46,996 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64583), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581046.9965541, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:47,043 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:47,043 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:47,043 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581047.0434294, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:47,043 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64584), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581047.0434294, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:47,043 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64583), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:47,043 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:47,043 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:47,090 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:10:47,090 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:47,090 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581047.0903044, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:47,090 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64584), raddr=('127.0.0.1', 7777)>,), {}
+
+n': 'presence', 'time': 1648581047.0903044, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:47,090 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:47,090 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:47,465 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:10:47,465 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581047.465367, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:10:47,465 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64585), raddr=('127.0.0.1', 7777)>,), {}
+
+n': 'presence', 'time': 1648581047.465367, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:10:47,465 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:47,465 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:47,980 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64582), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:47,980 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:10:47,980 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:10:54,637 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'wwwwwwwwwwwwwwwwwwwwwwwww'), {}
+
+2022-03-30 00:10:54,637 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64582), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648581054.6378977, 'to': '#room_name', 'from': 'default_user', 'message': 'wwwwwwwwwwwwwwwwwwwwwwwww'}), {}
+
+2022-03-30 00:10:55,091 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64583), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:55,091 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64584), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:10:55,091 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64585), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:11:06,772 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asdddddddddd'), {}
+
+2022-03-30 00:11:06,772 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64582), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648581066.7728908, 'to': '#room_name', 'from': 'default_user', 'message': 'asdddddddddd'}), {}
+
+2022-03-30 00:11:06,804 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64584), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:11:06,804 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64585), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:11:39,632 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', '5'), {}
+
+2022-03-30 00:11:39,647 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64582), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648581099.6323233, 'to': '#room_name', 'from': 'default_user', 'message': '5'}), {}
+
+2022-03-30 00:11:39,882 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64584), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:11:39,882 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64585), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:01,453 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:12:01,457 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:12:01,457 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581121.4550092, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:12:01,458 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64589), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581121.4550092, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:12:01,484 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:12:01,484 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:12:01,484 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64589), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:01,484 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:12:01,484 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:12:01,484 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581121.4847052, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:12:01,500 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64590), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581121.4847052, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:12:01,562 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:12:01,562 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:12:01,562 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581121.5628283, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:12:01,562 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64590), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:01,562 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64591), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581121.5628283, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:12:01,562 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:12:01,562 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:12:01,594 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:12:01,594 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:12:01,594 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581121.594079, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:12:01,594 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64592), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581121.594079, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:12:01,594 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64591), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:01,594 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:12:01,594 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:12:02,094 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64592), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:02,094 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:12:02,094 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:12:10,187 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user', 'asdasd'), {}
+
+2022-03-30 00:12:10,187 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64589), raddr=('127.0.0.1', 7777)>, {'action': 'msg', 'time': 1648581130.187419, 'to': '#room_name', 'from': 'default_user', 'message': 'asdasd'}), {}
+
+2022-03-30 00:12:10,265 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64590), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:10,265 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64591), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:12:10,281 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64592), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:17:58,827 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:17:58,843 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:17:58,843 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581478.8436325, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:17:58,843 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64664), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581478.8436325, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:17:59,344 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "client.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64664), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:17:59,359 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:17:59,359 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
+2022-03-30 00:18:26,870 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777
+2022-03-30 00:18:26,870 DEBUG decorators.py Функция "message_presence" вызвана из функции "main()".модуля "D:/py_client_server_app/lesson_7/client.py";
+c параметрами ('default_user',), {}
+
+2022-03-30 00:18:26,870 DEBUG client.py Сообщение на присутствие {'action': 'presence', 'time': 1648581506.870295, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}
+2022-03-30 00:18:26,870 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "D:/py_client_server_app/lesson_7/client.py";
+c параметрами (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64673), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1648581506.870295, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}), {}
+
+2022-03-30 00:18:27,386 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "D:/py_client_server_app/lesson_7/client.py";
+c параметрами (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64673), raddr=('127.0.0.1', 7777)>,), {}
+
+2022-03-30 00:18:27,401 DEBUG decorators.py Функция "presence_server" вызвана из функции "main()".модуля "D:/py_client_server_app/lesson_7/client.py";
+c параметрами ({'response': 200, 'alert': 'OK'},), {}
+
+2022-03-30 00:18:27,401 DEBUG client.py Ответ от сервера на сообщение на присутствие 200 : OK
