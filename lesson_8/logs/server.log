@@ -1,0 +1,1236 @@
+2022-04-04 13:58:27,725 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 13:58:34,115 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51077)>,), {}
+
+2022-04-04 13:58:34,145 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649062713.5756302, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}},), {}
+
+2022-04-04 13:58:34,145 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51077)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 13:58:34,145 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51077)>, {'action': 'presence', 'time': 1649062713.5756302, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}, []), {}
+
+2022-04-04 13:59:37,492 INFO server.py Клиент ('127.0.0.1', 51077) отключился от сервера.
+2022-04-04 14:23:54,152 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:23:54,642 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=68, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51213)>,), {}
+
+2022-04-04 14:23:54,642 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064234.6321673, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:23:54,642 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=68, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51213)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:23:54,642 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=68, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51213)>, {'action': 'presence', 'time': 1649064234.6321673, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:23:54,715 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51214)>,), {}
+
+2022-04-04 14:23:54,716 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064234.6402133, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:23:54,717 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51214)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:23:54,718 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51214)>, {'action': 'presence', 'time': 1649064234.6402133, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:23:54,726 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51215)>,), {}
+
+2022-04-04 14:23:54,727 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064234.7195773, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:23:54,727 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51215)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:23:54,727 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51215)>, {'action': 'presence', 'time': 1649064234.7195773, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:23:54,777 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51216)>,), {}
+
+2022-04-04 14:23:54,777 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064234.7255738, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:23:54,777 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51216)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:23:54,777 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51216)>, {'action': 'presence', 'time': 1649064234.7255738, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:23:55,297 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51217)>,), {}
+
+2022-04-04 14:23:55,297 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064234.770462, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:23:55,297 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51217)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:23:55,297 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51217)>, {'action': 'presence', 'time': 1649064234.770462, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:23:55,807 INFO server.py Клиент ('127.0.0.1', 51213) отключился от сервера.
+2022-04-04 14:23:55,807 INFO server.py Клиент ('127.0.0.1', 51214) отключился от сервера.
+2022-04-04 14:23:55,807 INFO server.py Клиент ('127.0.0.1', 51215) отключился от сервера.
+2022-04-04 14:23:55,807 INFO server.py Клиент ('127.0.0.1', 51216) отключился от сервера.
+2022-04-04 14:23:56,827 INFO server.py Клиент ('127.0.0.1', 51217) отключился от сервера.
+2022-04-04 14:24:07,247 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:24:10,684 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51219)>,), {}
+
+2022-04-04 14:24:10,685 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064250.1775634, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}},), {}
+
+2022-04-04 14:24:10,686 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51219)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:24:10,687 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51219)>, {'action': 'presence', 'time': 1649064250.1775634, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:24:13,727 INFO server.py Клиент ('127.0.0.1', 51219) отключился от сервера.
+2022-04-04 14:26:57,957 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51232)>,), {}
+
+2022-04-04 14:26:57,957 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064417.4474158, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}},), {}
+
+2022-04-04 14:26:57,967 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51232)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:26:57,967 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51232)>, {'action': 'presence', 'time': 1649064417.4474158, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:27:01,537 INFO server.py Клиент ('127.0.0.1', 51232) отключился от сервера.
+2022-04-04 14:27:51,827 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51235)>,), {}
+
+2022-04-04 14:27:51,827 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064471.3173993, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}},), {}
+
+2022-04-04 14:27:51,827 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51235)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:27:51,827 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51235)>, {'action': 'presence', 'time': 1649064471.3173993, 'type': 'status', 'user': {'account_name': 'default_user', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:28:00,784 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:28:00,942 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51237)>,), {}
+
+2022-04-04 14:28:00,945 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064480.8125298, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:28:00,947 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51237)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:28:00,947 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51237)>, {'action': 'presence', 'time': 1649064480.8125298, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:28:01,022 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51238)>,), {}
+
+2022-04-04 14:28:01,026 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064480.9477603, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:28:01,027 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51238)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:28:01,028 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51238)>, {'action': 'presence', 'time': 1649064480.9477603, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:28:01,036 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51239)>,), {}
+
+2022-04-04 14:28:01,037 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064481.0225134, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:28:01,038 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51239)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:28:01,038 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51239)>, {'action': 'presence', 'time': 1649064481.0225134, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:28:01,082 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51240)>,), {}
+
+2022-04-04 14:28:01,087 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064481.032613, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:28:01,087 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51240)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:28:01,089 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51240)>, {'action': 'presence', 'time': 1649064481.032613, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:28:01,607 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51241)>,), {}
+
+2022-04-04 14:28:01,612 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064481.0992794, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:28:01,617 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51241)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:28:01,617 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51241)>, {'action': 'presence', 'time': 1649064481.0992794, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:28:12,862 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51241)>,), {}
+
+2022-04-04 14:28:12,867 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51241)>, {'action': 'msg', 'time': 1649064492.6778228, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasd'}, [('guest5', 'asdasdasdasd', 'guest1')]), {}
+
+2022-04-04 14:28:12,872 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'asdasdasdasd', 'guest1'), {}
+
+2022-04-04 14:28:12,873 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51237)>, {'action': 'msg', 'time': 1649064492.8677123, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasd'}), {}
+
+2022-04-04 14:28:12,875 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51238)>, {'action': 'msg', 'time': 1649064492.8677123, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasd'}), {}
+
+2022-04-04 14:28:12,876 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51239)>, {'action': 'msg', 'time': 1649064492.8677123, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasd'}), {}
+
+2022-04-04 14:28:12,877 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51240)>, {'action': 'msg', 'time': 1649064492.8677123, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasd'}), {}
+
+2022-04-04 14:28:12,877 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51241)>, {'action': 'msg', 'time': 1649064492.8677123, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasd'}), {}
+
+2022-04-04 14:34:00,892 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:34:01,492 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51350)>,), {}
+
+2022-04-04 14:34:01,492 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064841.4793453, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:34:01,492 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51350)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:34:01,492 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51350)>, {'action': 'presence', 'time': 1649064841.4793453, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:34:01,559 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51351)>,), {}
+
+2022-04-04 14:34:01,559 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064841.489435, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:34:01,562 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51351)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:34:01,562 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51351)>, {'action': 'presence', 'time': 1649064841.489435, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:34:01,562 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51352)>,), {}
+
+2022-04-04 14:34:01,562 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064841.5598807, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:34:01,567 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51352)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:34:01,567 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51352)>, {'action': 'presence', 'time': 1649064841.5598807, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:34:01,567 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51353)>,), {}
+
+2022-04-04 14:34:01,569 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064841.5598807, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:34:01,569 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51353)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:34:01,572 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51353)>, {'action': 'presence', 'time': 1649064841.5598807, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:34:02,087 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51354)>,), {}
+
+2022-04-04 14:34:02,102 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649064841.5800326, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:34:02,102 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51354)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:34:02,102 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51354)>, {'action': 'presence', 'time': 1649064841.5800326, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:34:13,907 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51353)>,), {}
+
+2022-04-04 14:34:13,912 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51353)>, {'action': 'msg', 'time': 1649064853.4373243, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasda'}, [('guest5', 'asdasdasdasda', 'guest1')]), {}
+
+2022-04-04 14:34:13,917 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'asdasdasdasda', 'guest1'), {}
+
+2022-04-04 14:34:13,917 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51350)>, {'action': 'msg', 'time': 1649064853.9124668, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasda'}), {}
+
+2022-04-04 14:34:13,922 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51351)>, {'action': 'msg', 'time': 1649064853.9124668, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasda'}), {}
+
+2022-04-04 14:34:13,922 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51352)>, {'action': 'msg', 'time': 1649064853.9124668, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasda'}), {}
+
+2022-04-04 14:34:13,922 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51353)>, {'action': 'msg', 'time': 1649064853.9124668, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasda'}), {}
+
+2022-04-04 14:34:13,927 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51354)>, {'action': 'msg', 'time': 1649064853.9124668, 'to': 'guest1', 'from': 'guest5', 'message': 'asdasdasdasda'}), {}
+
+2022-04-04 14:37:19,982 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:37:20,112 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51363)>,), {}
+
+2022-04-04 14:37:20,112 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065040.0582454, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:37:20,112 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51363)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:37:20,116 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51363)>, {'action': 'presence', 'time': 1649065040.0582454, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:37:20,177 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51364)>,), {}
+
+2022-04-04 14:37:20,179 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065040.112694, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:37:20,179 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51364)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:37:20,179 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51364)>, {'action': 'presence', 'time': 1649065040.112694, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:37:20,260 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51365)>,), {}
+
+2022-04-04 14:37:20,260 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065040.1695645, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:37:20,260 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51365)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:37:20,260 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51365)>, {'action': 'presence', 'time': 1649065040.1695645, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:37:20,499 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51366)>,), {}
+
+2022-04-04 14:37:20,499 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065040.258494, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:37:20,507 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51366)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:37:20,507 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51366)>, {'action': 'presence', 'time': 1649065040.258494, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:37:21,027 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51362)>,), {}
+
+2022-04-04 14:37:21,032 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065040.497512, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:37:21,037 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51362)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:37:21,037 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51362)>, {'action': 'presence', 'time': 1649065040.497512, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:37:31,287 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51366)>,), {}
+
+2022-04-04 14:37:31,289 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51366)>, {'action': 'msg', 'time': 1649065050.9375126, 'to': 'guest4', 'from': 'guest5', 'message': 'lol'}, [('guest5', 'lol', 'guest4')]), {}
+
+2022-04-04 14:37:31,291 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'lol', 'guest4'), {}
+
+2022-04-04 14:37:31,294 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51363)>, {'action': 'msg', 'time': 1649065051.28985, 'to': 'guest4', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:37:31,297 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51364)>, {'action': 'msg', 'time': 1649065051.28985, 'to': 'guest4', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:37:31,301 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51365)>, {'action': 'msg', 'time': 1649065051.28985, 'to': 'guest4', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:37:31,304 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51366)>, {'action': 'msg', 'time': 1649065051.28985, 'to': 'guest4', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:37:31,307 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51362)>, {'action': 'msg', 'time': 1649065051.28985, 'to': 'guest4', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:39:11,722 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:39:12,247 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51375)>,), {}
+
+2022-04-04 14:39:12,247 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065151.727278, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:39:12,247 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51375)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:39:12,247 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51375)>, {'action': 'presence', 'time': 1649065151.727278, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:39:23,987 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51375)>,), {}
+
+2022-04-04 14:39:23,987 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51375)>, {'action': 'msg', 'time': 1649065163.6326559, 'to': 'guest1', 'from': 'guest1', 'message': 'lol'}, [('guest1', 'lol', 'guest1')]), {}
+
+2022-04-04 14:39:23,992 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest1', 'lol', 'guest1'), {}
+
+2022-04-04 14:39:23,992 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51375)>, {'action': 'msg', 'time': 1649065163.992593, 'to': 'guest1', 'from': 'guest1', 'message': 'lol'}), {}
+
+2022-04-04 14:52:18,349 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:52:18,902 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51441)>,), {}
+
+2022-04-04 14:52:18,902 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065938.8871808, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:52:18,904 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51441)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:52:18,904 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51441)>, {'action': 'presence', 'time': 1649065938.8871808, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:52:18,907 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51442)>,), {}
+
+2022-04-04 14:52:18,907 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065938.8973083, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:52:18,907 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51442)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:52:18,907 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51442)>, {'action': 'presence', 'time': 1649065938.8973083, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:52:18,997 INFO server.py Клиент ('127.0.0.1', 51441) отключился от сервера.
+2022-04-04 14:52:18,997 INFO server.py Клиент ('127.0.0.1', 51442) отключился от сервера.
+2022-04-04 14:52:18,997 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51443)>,), {}
+
+2022-04-04 14:52:18,997 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065938.9048595, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:52:19,007 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51443)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:52:19,007 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51443)>, {'action': 'presence', 'time': 1649065938.9048595, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:52:19,047 INFO server.py Клиент ('127.0.0.1', 51443) отключился от сервера.
+2022-04-04 14:52:19,047 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51444)>,), {}
+
+2022-04-04 14:52:19,047 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065938.9974623, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:52:19,047 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51444)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:52:19,047 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51444)>, {'action': 'presence', 'time': 1649065938.9974623, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:52:19,557 INFO server.py Клиент ('127.0.0.1', 51444) отключился от сервера.
+2022-04-04 14:52:19,557 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51445)>,), {}
+
+2022-04-04 14:52:19,557 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649065939.0471935, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:52:19,567 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51445)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:52:19,567 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51445)>, {'action': 'presence', 'time': 1649065939.0471935, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:52:20,077 INFO server.py Клиент ('127.0.0.1', 51445) отключился от сервера.
+2022-04-04 14:53:30,027 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:53:30,312 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51449)>,), {}
+
+2022-04-04 14:53:30,312 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066010.2862542, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:30,318 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51449)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:30,318 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51449)>, {'action': 'presence', 'time': 1649066010.2862542, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:30,347 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51450)>,), {}
+
+2022-04-04 14:53:30,347 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066010.3124387, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:30,348 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51450)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:30,348 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51450)>, {'action': 'presence', 'time': 1649066010.3124387, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:30,387 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51451)>,), {}
+
+2022-04-04 14:53:30,387 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066010.342113, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:30,387 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51451)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:30,387 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51451)>, {'action': 'presence', 'time': 1649066010.342113, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:30,397 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51452)>,), {}
+
+2022-04-04 14:53:30,397 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066010.3875415, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:30,397 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51452)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:30,397 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51452)>, {'action': 'presence', 'time': 1649066010.3875415, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:30,907 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51453)>,), {}
+
+2022-04-04 14:53:30,907 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066010.3973918, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:30,907 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51453)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:30,907 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51453)>, {'action': 'presence', 'time': 1649066010.3973918, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:31,427 INFO server.py Клиент ('127.0.0.1', 51449) отключился от сервера.
+2022-04-04 14:53:31,427 INFO server.py Клиент ('127.0.0.1', 51450) отключился от сервера.
+2022-04-04 14:53:31,427 INFO server.py Клиент ('127.0.0.1', 51451) отключился от сервера.
+2022-04-04 14:53:31,427 INFO server.py Клиент ('127.0.0.1', 51452) отключился от сервера.
+2022-04-04 14:53:32,437 INFO server.py Клиент ('127.0.0.1', 51453) отключился от сервера.
+2022-04-04 14:53:49,537 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 14:53:49,797 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51454)>,), {}
+
+2022-04-04 14:53:49,797 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066029.7894063, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:49,799 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51454)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:49,799 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51454)>, {'action': 'presence', 'time': 1649066029.7894063, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:49,827 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51455)>,), {}
+
+2022-04-04 14:53:49,827 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066029.7994773, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:49,829 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51455)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:49,829 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51455)>, {'action': 'presence', 'time': 1649066029.7994773, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:49,872 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51456)>,), {}
+
+2022-04-04 14:53:49,872 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066029.822613, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:49,872 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51456)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:49,872 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51456)>, {'action': 'presence', 'time': 1649066029.822613, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:49,930 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51457)>,), {}
+
+2022-04-04 14:53:49,937 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066029.8699641, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:49,937 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51457)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:49,938 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51457)>, {'action': 'presence', 'time': 1649066029.8699641, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:53:50,449 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51458)>,), {}
+
+2022-04-04 14:53:50,449 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649066029.9308848, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 14:53:50,449 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51458)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 14:53:50,449 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51458)>, {'action': 'presence', 'time': 1649066029.9308848, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 14:54:00,137 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51458)>,), {}
+
+2022-04-04 14:54:00,137 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51458)>, {'action': 'msg', 'time': 1649066039.9574926, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}, [('guest5', 'lol', 'guest1')]), {}
+
+2022-04-04 14:54:00,142 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'lol', 'guest1'), {}
+
+2022-04-04 14:54:00,147 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51454)>, {'action': 'msg', 'time': 1649066040.1426606, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:54:00,147 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51455)>, {'action': 'msg', 'time': 1649066040.1426606, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:54:00,152 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51456)>, {'action': 'msg', 'time': 1649066040.1426606, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:54:00,157 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51457)>, {'action': 'msg', 'time': 1649066040.1426606, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 14:54:00,157 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51458)>, {'action': 'msg', 'time': 1649066040.1426606, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:08:02,253 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:08:02,685 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52232)>,), {}
+
+2022-04-04 16:08:02,687 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070482.657248, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:08:02,687 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52232)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:08:02,687 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52232)>, {'action': 'presence', 'time': 1649070482.657248, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:08:02,707 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52233)>,), {}
+
+2022-04-04 16:08:02,707 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070482.6835585, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:08:02,707 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52233)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:08:02,713 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52233)>, {'action': 'presence', 'time': 1649070482.6835585, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:08:02,723 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52234)>,), {}
+
+2022-04-04 16:08:02,723 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070482.7078109, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:08:02,725 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52234)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:08:02,725 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52234)>, {'action': 'presence', 'time': 1649070482.7078109, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:08:02,746 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52235)>,), {}
+
+2022-04-04 16:08:02,746 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070482.717908, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:08:02,746 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52235)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:08:02,746 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52235)>, {'action': 'presence', 'time': 1649070482.717908, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:08:03,263 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52236)>,), {}
+
+2022-04-04 16:08:03,268 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070482.746101, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:08:03,273 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52236)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:08:03,273 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52236)>, {'action': 'presence', 'time': 1649070482.746101, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:12:55,306 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:12:55,793 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52293)>,), {}
+
+2022-04-04 16:12:55,799 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070775.773452, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:12:55,799 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52293)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:12:55,801 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52293)>, {'action': 'presence', 'time': 1649070775.773452, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:12:55,808 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52294)>,), {}
+
+2022-04-04 16:12:55,808 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070775.793588, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:12:55,809 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52294)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:12:55,811 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52294)>, {'action': 'presence', 'time': 1649070775.793588, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:12:55,813 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52295)>,), {}
+
+2022-04-04 16:12:55,813 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070775.8031607, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:12:55,813 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52295)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:12:55,813 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52295)>, {'action': 'presence', 'time': 1649070775.8031607, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:12:55,958 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52296)>,), {}
+
+2022-04-04 16:12:55,958 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070775.8132617, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:12:55,961 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52296)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:12:55,961 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52296)>, {'action': 'presence', 'time': 1649070775.8132617, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:12:56,473 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52297)>,), {}
+
+2022-04-04 16:12:56,473 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649070775.9534543, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:12:56,473 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52297)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:12:56,473 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52297)>, {'action': 'presence', 'time': 1649070775.9534543, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52296)>,), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52296)>, {'action': 'msg', 'time': 1649070787.6380918, 'to': 'guest3', 'from': 'guest4', 'message': 'lol'}, [('guest4', 'lol', 'guest3')]), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest4', 'lol', 'guest3'), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52293)>, {'action': 'msg', 'time': 1649070787.7031054, 'to': 'guest3', 'from': 'guest4', 'message': 'lol'}), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52294)>, {'action': 'msg', 'time': 1649070787.7031054, 'to': 'guest3', 'from': 'guest4', 'message': 'lol'}), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52295)>, {'action': 'msg', 'time': 1649070787.7031054, 'to': 'guest3', 'from': 'guest4', 'message': 'lol'}), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52296)>, {'action': 'msg', 'time': 1649070787.7031054, 'to': 'guest3', 'from': 'guest4', 'message': 'lol'}), {}
+
+2022-04-04 16:13:07,703 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52297)>, {'action': 'msg', 'time': 1649070787.7031054, 'to': 'guest3', 'from': 'guest4', 'message': 'lol'}), {}
+
+2022-04-04 16:19:01,356 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:19:01,643 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52347)>,), {}
+
+2022-04-04 16:19:01,643 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071141.6332643, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:01,643 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52347)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:01,647 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52347)>, {'action': 'presence', 'time': 1649071141.6332643, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:01,740 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52348)>,), {}
+
+2022-04-04 16:19:01,743 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071141.6393757, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:01,748 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52348)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:01,750 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52348)>, {'action': 'presence', 'time': 1649071141.6393757, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:01,750 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52349)>,), {}
+
+2022-04-04 16:19:01,753 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071141.740538, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:01,753 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52349)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:01,753 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52349)>, {'action': 'presence', 'time': 1649071141.740538, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:01,763 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52350)>,), {}
+
+2022-04-04 16:19:01,763 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071141.7506316, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:01,768 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52350)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:01,770 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52350)>, {'action': 'presence', 'time': 1649071141.7506316, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:02,273 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52351)>,), {}
+
+2022-04-04 16:19:02,273 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071141.763275, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:02,273 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52351)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:02,273 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52351)>, {'action': 'presence', 'time': 1649071141.763275, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:12,958 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52351)>,), {}
+
+2022-04-04 16:19:12,963 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52351)>, {'action': 'msg', 'time': 1649071152.808329, 'to': 'guest_1', 'from': 'guest5', 'message': 'lol'}, [('guest5', 'lol', 'guest_1')]), {}
+
+2022-04-04 16:19:12,963 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'lol', 'guest_1'), {}
+
+2022-04-04 16:19:12,967 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52347)>, {'action': 'msg', 'time': 1649071152.9638672, 'to': 'guest_1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:19:12,967 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52348)>, {'action': 'msg', 'time': 1649071152.9638672, 'to': 'guest_1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:19:12,973 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52349)>, {'action': 'msg', 'time': 1649071152.9638672, 'to': 'guest_1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:19:12,973 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52350)>, {'action': 'msg', 'time': 1649071152.9638672, 'to': 'guest_1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:19:12,973 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52351)>, {'action': 'msg', 'time': 1649071152.9638672, 'to': 'guest_1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:19:54,388 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:19:54,563 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52353)>,), {}
+
+2022-04-04 16:19:54,564 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071194.5143352, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:54,564 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52353)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:54,564 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52353)>, {'action': 'presence', 'time': 1649071194.5143352, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:54,608 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52354)>,), {}
+
+2022-04-04 16:19:54,608 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071194.5582135, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:54,615 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52354)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:54,618 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52354)>, {'action': 'presence', 'time': 1649071194.5582135, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:54,623 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52355)>,), {}
+
+2022-04-04 16:19:54,625 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071194.608092, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:54,625 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52355)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:54,625 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52355)>, {'action': 'presence', 'time': 1649071194.608092, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:54,648 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52356)>,), {}
+
+2022-04-04 16:19:54,648 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071194.6231842, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:54,648 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52356)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:54,648 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52356)>, {'action': 'presence', 'time': 1649071194.6231842, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:19:55,163 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52357)>,), {}
+
+2022-04-04 16:19:55,163 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071194.6482127, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:19:55,173 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52357)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:19:55,173 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52357)>, {'action': 'presence', 'time': 1649071194.6482127, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:20:04,373 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52355)>,), {}
+
+2022-04-04 16:20:04,373 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52355)>, {'action': 'msg', 'time': 1649071204.0483215, 'to': 'guest1', 'from': 'guest2', 'message': 'lol'}, [('guest2', 'lol', 'guest1')]), {}
+
+2022-04-04 16:20:04,373 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest2', 'lol', 'guest1'), {}
+
+2022-04-04 16:20:04,373 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52353)>, {'action': 'msg', 'time': 1649071204.373312, 'to': 'guest1', 'from': 'guest2', 'message': 'lol'}), {}
+
+2022-04-04 16:20:04,383 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52354)>, {'action': 'msg', 'time': 1649071204.373312, 'to': 'guest1', 'from': 'guest2', 'message': 'lol'}), {}
+
+2022-04-04 16:20:04,388 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52355)>, {'action': 'msg', 'time': 1649071204.373312, 'to': 'guest1', 'from': 'guest2', 'message': 'lol'}), {}
+
+2022-04-04 16:20:04,393 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52356)>, {'action': 'msg', 'time': 1649071204.373312, 'to': 'guest1', 'from': 'guest2', 'message': 'lol'}), {}
+
+2022-04-04 16:20:04,397 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52357)>, {'action': 'msg', 'time': 1649071204.373312, 'to': 'guest1', 'from': 'guest2', 'message': 'lol'}), {}
+
+2022-04-04 16:20:36,955 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:20:37,558 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52361)>,), {}
+
+2022-04-04 16:20:37,558 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071237.3668594, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:20:37,561 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52361)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:20:37,561 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52361)>, {'action': 'presence', 'time': 1649071237.3668594, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:20:37,583 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52362)>,), {}
+
+2022-04-04 16:20:37,583 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071237.553454, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:20:37,583 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52362)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:20:37,583 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52362)>, {'action': 'presence', 'time': 1649071237.553454, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:20:37,661 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52363)>,), {}
+
+2022-04-04 16:20:37,663 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071237.6034255, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:20:37,663 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52363)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:20:37,663 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52363)>, {'action': 'presence', 'time': 1649071237.6034255, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:20:37,673 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52364)>,), {}
+
+2022-04-04 16:20:37,673 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071237.6618524, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:20:37,673 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52364)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:20:37,673 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52364)>, {'action': 'presence', 'time': 1649071237.6618524, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:20:38,183 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52365)>,), {}
+
+2022-04-04 16:20:38,188 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071237.6734428, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:20:38,188 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52365)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:20:38,193 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52365)>, {'action': 'presence', 'time': 1649071237.6734428, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:20:52,573 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52364)>,), {}
+
+2022-04-04 16:20:52,573 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52364)>, {'action': 'msg', 'time': 1649071252.123662, 'to': 'guest1', 'from': 'guest4', 'message': 'lol2222'}, [('guest4', 'lol2222', 'guest1')]), {}
+
+2022-04-04 16:20:52,573 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest4', 'lol2222', 'guest1'), {}
+
+2022-04-04 16:20:52,583 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52361)>, {'action': 'msg', 'time': 1649071252.5734725, 'to': 'guest1', 'from': 'guest4', 'message': 'lol2222'}), {}
+
+2022-04-04 16:20:52,583 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52362)>, {'action': 'msg', 'time': 1649071252.5734725, 'to': 'guest1', 'from': 'guest4', 'message': 'lol2222'}), {}
+
+2022-04-04 16:20:52,583 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52363)>, {'action': 'msg', 'time': 1649071252.5734725, 'to': 'guest1', 'from': 'guest4', 'message': 'lol2222'}), {}
+
+2022-04-04 16:20:52,593 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52364)>, {'action': 'msg', 'time': 1649071252.5734725, 'to': 'guest1', 'from': 'guest4', 'message': 'lol2222'}), {}
+
+2022-04-04 16:20:52,593 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52365)>, {'action': 'msg', 'time': 1649071252.5734725, 'to': 'guest1', 'from': 'guest4', 'message': 'lol2222'}), {}
+
+2022-04-04 16:21:50,053 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:21:50,546 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52383)>,), {}
+
+2022-04-04 16:21:50,548 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071310.395389, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:21:50,548 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52383)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:21:50,548 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52383)>, {'action': 'presence', 'time': 1649071310.395389, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:21:50,599 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52384)>,), {}
+
+2022-04-04 16:21:50,603 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071310.5466347, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:21:50,603 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52384)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:21:50,603 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52384)>, {'action': 'presence', 'time': 1649071310.5466347, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:21:50,613 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52385)>,), {}
+
+2022-04-04 16:21:50,613 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071310.5991442, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:21:50,617 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52385)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:21:50,617 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52385)>, {'action': 'presence', 'time': 1649071310.5991442, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:21:50,629 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52386)>,), {}
+
+2022-04-04 16:21:50,633 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071310.6137757, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:21:50,633 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52386)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:21:50,633 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52386)>, {'action': 'presence', 'time': 1649071310.6137757, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:21:51,138 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52387)>,), {}
+
+2022-04-04 16:21:51,138 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071310.6295571, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:21:51,138 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52387)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:21:51,138 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52387)>, {'action': 'presence', 'time': 1649071310.6295571, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:22:05,468 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52385)>,), {}
+
+2022-04-04 16:22:05,468 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52385)>, {'action': 'msg', 'time': 1649071325.0082285, 'to': 'all', 'from': 'guest5', 'message': 'all lol'}, [('guest5', 'all lol', 'all')]), {}
+
+2022-04-04 16:22:05,468 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'all lol', 'all'), {}
+
+2022-04-04 16:22:05,468 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52383)>, {'action': 'msg', 'time': 1649071325.468444, 'to': 'all', 'from': 'guest5', 'message': 'all lol'}), {}
+
+2022-04-04 16:22:05,473 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52384)>, {'action': 'msg', 'time': 1649071325.468444, 'to': 'all', 'from': 'guest5', 'message': 'all lol'}), {}
+
+2022-04-04 16:22:05,473 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52385)>, {'action': 'msg', 'time': 1649071325.468444, 'to': 'all', 'from': 'guest5', 'message': 'all lol'}), {}
+
+2022-04-04 16:22:05,473 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52386)>, {'action': 'msg', 'time': 1649071325.468444, 'to': 'all', 'from': 'guest5', 'message': 'all lol'}), {}
+
+2022-04-04 16:22:05,473 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52387)>, {'action': 'msg', 'time': 1649071325.468444, 'to': 'all', 'from': 'guest5', 'message': 'all lol'}), {}
+
+2022-04-04 16:30:18,376 INFO server.py Запущен сервер, порт для подключений: "7777", адрес с которого принимаются подключения: "". Если адрес не указан, принимаются соединения с любых адресов.
+2022-04-04 16:30:19,078 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52486)>,), {}
+
+2022-04-04 16:30:19,078 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071819.053265, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}},), {}
+
+2022-04-04 16:30:19,080 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52486)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:30:19,080 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52486)>, {'action': 'presence', 'time': 1649071819.053265, 'type': 'status', 'user': {'account_name': 'guest1', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:30:19,089 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52487)>,), {}
+
+2022-04-04 16:30:19,089 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071819.0734065, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}},), {}
+
+2022-04-04 16:30:19,091 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52487)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:30:19,091 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52487)>, {'action': 'presence', 'time': 1649071819.0734065, 'type': 'status', 'user': {'account_name': 'guest3', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:30:19,099 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>,), {}
+
+2022-04-04 16:30:19,099 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071819.0910358, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}},), {}
+
+2022-04-04 16:30:19,101 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:30:19,101 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'presence', 'time': 1649071819.0910358, 'type': 'status', 'user': {'account_name': 'guest5', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:30:19,171 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52489)>,), {}
+
+2022-04-04 16:30:19,173 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071819.099082, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}},), {}
+
+2022-04-04 16:30:19,173 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52489)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:30:19,173 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52489)>, {'action': 'presence', 'time': 1649071819.099082, 'type': 'status', 'user': {'account_name': 'guest2', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:30:19,683 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52490)>,), {}
+
+2022-04-04 16:30:19,683 DEBUG decorators.py Функция "presence_message_validation" вызвана из функции "main()".модуля "functions.py";
+c параметрами ({'action': 'presence', 'time': 1649071819.1696796, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}},), {}
+
+2022-04-04 16:30:19,688 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "functions.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52490)>, {'response': 200, 'alert': 'OK'}), {}
+
+2022-04-04 16:30:19,688 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52490)>, {'action': 'presence', 'time': 1649071819.1696796, 'type': 'status', 'user': {'account_name': 'guest4', 'status': 'Status report'}}, []), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>,), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'msg', 'time': 1649071829.7731433, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}, [('guest5', 'lol', 'guest1')]), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'lol', 'guest1'), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52486)>, {'action': 'msg', 'time': 1649071829.9232154, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52487)>, {'action': 'msg', 'time': 1649071829.9232154, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'msg', 'time': 1649071829.9232154, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52489)>, {'action': 'msg', 'time': 1649071829.9232154, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:30:29,923 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52490)>, {'action': 'msg', 'time': 1649071829.9232154, 'to': 'guest1', 'from': 'guest5', 'message': 'lol'}), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>,), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'msg', 'time': 1649071837.7134926, 'to': 'message', 'from': 'guest5', 'message': 'all'}, [('guest5', 'all', 'message')]), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'all', 'message'), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52486)>, {'action': 'msg', 'time': 1649071838.0732765, 'to': 'message', 'from': 'guest5', 'message': 'all'}), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52487)>, {'action': 'msg', 'time': 1649071838.0732765, 'to': 'message', 'from': 'guest5', 'message': 'all'}), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'msg', 'time': 1649071838.0732765, 'to': 'message', 'from': 'guest5', 'message': 'all'}), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52489)>, {'action': 'msg', 'time': 1649071838.0732765, 'to': 'message', 'from': 'guest5', 'message': 'all'}), {}
+
+2022-04-04 16:30:38,073 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52490)>, {'action': 'msg', 'time': 1649071838.0732765, 'to': 'message', 'from': 'guest5', 'message': 'all'}), {}
+
+2022-04-04 16:30:53,963 DEBUG decorators.py Функция "get_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>,), {}
+
+2022-04-04 16:30:53,963 DEBUG decorators.py Функция "message_type_separation" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'msg', 'time': 1649071853.7932813, 'to': 'all', 'from': 'guest5', 'message': 'hello world'}, [('guest5', 'hello world', 'all')]), {}
+
+2022-04-04 16:30:53,968 DEBUG decorators.py Функция "message_common" вызвана из функции "main()".модуля "server.py";
+c параметрами ('guest5', 'hello world', 'all'), {}
+
+2022-04-04 16:30:53,973 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52486)>, {'action': 'msg', 'time': 1649071853.9684083, 'to': 'all', 'from': 'guest5', 'message': 'hello world'}), {}
+
+2022-04-04 16:30:53,973 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52487)>, {'action': 'msg', 'time': 1649071853.9684083, 'to': 'all', 'from': 'guest5', 'message': 'hello world'}), {}
+
+2022-04-04 16:30:53,979 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52488)>, {'action': 'msg', 'time': 1649071853.9684083, 'to': 'all', 'from': 'guest5', 'message': 'hello world'}), {}
+
+2022-04-04 16:30:53,983 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52489)>, {'action': 'msg', 'time': 1649071853.9684083, 'to': 'all', 'from': 'guest5', 'message': 'hello world'}), {}
+
+2022-04-04 16:30:53,983 DEBUG decorators.py Функция "send_message" вызвана из функции "main()".модуля "server.py";
+c параметрами (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52490)>, {'action': 'msg', 'time': 1649071853.9684083, 'to': 'all', 'from': 'guest5', 'message': 'hello world'}), {}
+
+2022-04-04 16:31:06,763 INFO server.py Клиент ('127.0.0.1', 52488) отключился от сервера.
